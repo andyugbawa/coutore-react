@@ -1,0 +1,280 @@
+.nav-btn{
+    padding: 30px 20px;
+}
+.btn-item {
+    padding: 5px 45px;
+    border-radius: 5px;
+    background: red;
+    text-decoration: none;
+    color: white;
+}
+
+.men-page{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.women-page{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.jewel-page{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+h2{
+    text-decoration: underline;
+}
+
+.men-container{
+    height: 120vh;
+    /* border: 2px solid black; */
+}
+
+.women-container{
+    height: 120vh;
+    /* border: 2px solid black; */
+}
+
+.jewel-container{
+    height: 120vh;
+    /* border: 2px solid black; */
+}
+.men_content{
+    display: flex;
+    padding: 20px 40px;
+    gap: 10px;
+}
+.women_content{
+    display: flex;
+    padding: 20px 40px;
+    gap: 10px;
+}
+.jewel_content{
+    display: flex;
+    padding: 20px 40px;
+    gap: 10px;
+}
+.men-image{
+    width:620px;
+    height: 420px;
+    /* border: 2px solid red; */
+}
+
+.men-text{
+    width:620px;
+    height: 420px;
+    /* border: 2px solid red; */
+}
+
+.women-text{
+    width:620px;
+    height: 420px;
+    /* border: 2px solid red; */
+}
+
+.jewel-text{
+    width:620px;
+    height: 420px;
+    /* border: 2px solid red; */
+}
+
+.men-wear{
+    width:550px;
+    height: 420px; 
+}
+
+.women-wear{
+    width:550px;
+    height: 420px; 
+}
+
+.jewel-wear{
+    width:550px;
+    height: 420px; 
+}
+h1{
+    text-align: center;
+}
+.p-text{
+    padding: 10px 20px;
+}
+.polo{
+    font-size: 25px;
+}
+.price-label{
+    padding: 6px 0;
+}
+.price-tag{
+    font-size: 25px;
+    font-weight: bold;
+}
+.quantity{
+    display: flex;
+    gap: 15px;
+    padding: 30px 0;
+}
+.plus{
+    padding: 5px 10px;
+}
+.cart{
+    font-size: 18px;
+}
+
+@media (max-width:768px) {
+    .men-image{
+        width:420px;
+        height: 420px;
+        /* border: 2px solid red; */
+    }
+    .women-image{
+        width:420px;
+        height: 420px;
+        /* border: 2px solid red; */
+    }
+    .jewel-image{
+        width:420px;
+        height: 420px;
+        /* border: 2px solid red; */
+    }
+    .men-text{
+        width:620px;
+        height: 300px;
+        /* border: 2px solid red; */
+    }
+    .women-text{
+        width:620px;
+        height: 300px;
+        /* border: 2px solid red; */
+    }
+    
+    .jewel-text{
+        width:620px;
+        height: 300px;
+        /* border: 2px solid red; */
+    } 
+    .men-wear{
+        width:350px;
+        height: 320px; 
+    }
+    
+    .women-wear{
+        width:350px;
+        height: 320px; 
+    }
+
+    .jewel-wear{
+        width:350px;
+        height: 320px; 
+    }
+    h1{
+        text-align: center;
+    }
+    .p-text{
+        padding: 10px 20px;
+    }
+    .polo{
+        font-size: 25px;
+    }
+    .quantity{
+        display: flex;
+        gap: 15px;
+        padding: 30px 0;
+    }
+    .plus{
+        padding: 5px 20px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .men-image{
+        width:320px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+    .women-image{
+        width:320px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+    
+    .jewel-image{
+        width:320px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+    
+.men_content{
+    display: flex;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.women_content{
+    display: flex;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.jewel_content{
+    display: flex;
+    padding: 20px 0px;
+    gap: 10px;
+}
+    .men-text{
+        width:220px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+    
+    .women-text{
+        width:220px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+
+    .jewel-text{
+        width:220px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+
+    .men-wear{
+        width:350px;
+        height: 320px; 
+    }
+    
+    .women-wear{
+        width:350px;
+        height: 320px; 
+    }
+
+    .jewel-wear{
+        width:350px;
+        height: 320px; 
+    }
+    h1{
+        text-align: center;
+        font-size: 10px;
+    }
+    .p-text{
+        padding: 10px 20px;
+    }
+    .polo{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .quantity{
+        display: flex;
+        gap: 15px;
+        padding: 30px 0;
+    }
+    .plus{
+        padding: 5px 20px;
+    }
+}
