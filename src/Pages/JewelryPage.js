@@ -36,7 +36,7 @@ function JewelryPage() {
         <div className='jewel-container'>
            <div className='jewel_content'>
               <div className='jewel-image'>
-              <img  className='jewel-wear' src="images/lace2.png"/>
+              <img  className='jewel-wear' src="images/lace2.png" alt="show"/>
               </div>
               <div className='jewel-text'>
                 <h1 className=''>NECK LACE</h1>
@@ -56,7 +56,7 @@ function JewelryPage() {
            </div>
            <div className='jewel_content'>
               <div className='jewel-image'>
-              <img  className='jewel-wear' src="images/diamond.jpg"/>
+              <img  className='jewel-wear' src="images/diamond.jpg" alt="show"/>
               </div>
               <div className='jewel-text'>
                 <h1 className=''>DIAMOND CHAIN</h1>
@@ -78,7 +78,7 @@ function JewelryPage() {
            </div>
            <div className='jewel_content'>
               <div className='jewel-image'>
-              <img  className='jewel-wear' src="images/watch.jpg"/>
+              <img  className='jewel-wear' src="images/watch.jpg" alt="show"/>
               </div>
               <div className='jewel-text'>
                 <h1 className=''>WRISTWATCH</h1>

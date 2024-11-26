@@ -53,7 +53,7 @@ function MenPage() {
            </div>
            <div className='men_content'>
               <div className='men-image'>
-              <img  className='men-wear' src="images/sleve5.jpg" alt=""/>
+              <img  className='men-wear' src="images/sleve5.jpg" alt="show"/>
               </div>
               <div className='men-text'>
                 <h1 className=''>LONG SLEVE SHIRT</h1>
@@ -76,7 +76,7 @@ function MenPage() {
            </div>
            <div className='men_content'>
               <div className='men-image'>
-              <img  className='men-wear' src="images/sneaker2.jpg" alt=""/>
+              <img  className='men-wear' src="images/sneaker2.jpg" alt="show"/>
               </div>
               <div className='men-text'>
                 <h1 className=''>SNEAKER</h1>

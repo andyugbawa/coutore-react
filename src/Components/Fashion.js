@@ -28,7 +28,7 @@ function Fashion() {
     <div>
       <div >
    <div className='nav' >
-     <a href="#" className='nav_brand'>Fashion & Styles</a>
+     <h2 className='nav_brand'>Fashion & Styles</h2>
       {(toggle||screen>500 )&&(
      <ul className={`nav-list ${toggle?"show-nav":""}`}>
        <li className='nav_item' ><Link to="/">Home</Link> </li>
@@ -50,7 +50,7 @@ function Fashion() {
 
       <div className='car'>
         <div className='image-container'>
-          <img className='motor' src="images/models.jpg" alt=""/>
+          <img className='motor' src="images/models.jpg" alt="show"/>
           <div className='overlay-text'>FASHION EXPERIENCE THAT MAKE SENSE </div>
         </div>
       </div>
@@ -62,16 +62,16 @@ function Fashion() {
 
       <div className='cards'>
         <div className='card1'>
-          <img  className='fashion' src="images/polo5.jpg" alt=""/>
+          <img  className='fashion' src="images/polo5.jpg" alt="show"/>
           <p className='price'> Price:$1800</p>
 
         </div>
         <div className='card2'>
-        <img  className='fashion' src="images/short shirt1.png" alt=""/>
+        <img  className='fashion' src="images/short shirt1.png" alt="show"/>
         <p className='price'> Price:$1500</p>
         </div>
         <div className='card3'>
-        <img  className='fashion' src="images/chinos3.jpg" alt=""/>
+        <img  className='fashion' src="images/chinos3.jpg" alt="show"/>
         <p className='price'> Price:$1600</p>
         </div>
       
@@ -80,32 +80,32 @@ function Fashion() {
 
       <div className='cards2'>
         <div className='card1'>
-          <img  className='fashion' src="images/blouse1.jpg" alt=""/>
+          <img  className='fashion' src="images/blouse1.jpg" alt="show"/>
           <p className='price'> Price:$1800</p>
 
         </div>
         <div className='card2'>
-        <img  className='fashion' src="images/skirt2.jpeg" alt=""/>
+        <img  className='fashion' src="images/skirt2.jpeg" alt="show"/>
         <p className='price'> Price:$1500</p>
         </div>
         <div className='card3'>
-        <img  className='fashion' src="images/gown.jpeg" alt=""/>
+        <img  className='fashion' src="images/gown.jpeg" alt="show"/>
         <p className='price'> Price:$1600</p>
         </div>
       
       </div>
       <div className='cards3'>
         <div className='card1'>
-          <img  className='fashion' src="images/watch.jpg" alt=""/>
+          <img  className='fashion' src="images/watch.jpg" alt="show"/>
           <p className='price'> Price:$1800</p>
 
         </div>
         <div className='card2'>
-        <img  className='fashion' src="images/neckchain.png" alt=""/>
+        <img  className='fashion' src="images/neckchain.png" alt="show"/>
         <p className='price'> Price:$1500</p>
         </div>
         <div className='card3'>
-        <img  className='fashion' src="images/heel.jpg" alt=""/>
+        <img  className='fashion' src="images/heel.jpg" alt="show"/>
         <p className='price'> Price:$1600</p>
         </div>
       

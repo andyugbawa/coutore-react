@@ -39,7 +39,7 @@ function WomenPage() {
         <div className='women-container'>
            <div className='women_content'>
               <div className='women-image'>
-              <img  className='women-wear' src="images/blouse2.jpg"/>
+              <img  className='women-wear' src="images/blouse2.jpg" alt="show"/>
               </div>
               <div className='women-text'>
                 <h1 className=''>BLOUSE</h1>
@@ -59,7 +59,7 @@ function WomenPage() {
            </div>
            <div className='women_content'>
               <div className='women-image'>
-              <img  className='women-wear' src="images/gown2.webp"/>
+              <img  className='women-wear' src="images/gown2.webp" alt="show"/>
               </div>
               <div className='women-text'>
                 <h1 className=''>GOWN</h1>
@@ -80,7 +80,7 @@ function WomenPage() {
 
            <div className='women_content'>
               <div className='women-image'>
-              <img  className='women-wear' src="images/handbag.jpg"/>
+              <img  className='women-wear' src="images/handbag.jpg" alt="show"/>
               </div>
               <div className='women-text'>
                 <h1 className=''>HANDBAG</h1>
@@ -102,7 +102,7 @@ function WomenPage() {
 
            <div className='women_content'>
               <div className='women-image'>
-              <img  className='women-wear' src="images/heel2.jpg"/>
+              <img  className='women-wear' src="images/heel2.jpg" alt="show"/>
               </div>
               <div className='women-text'>
                 <h1 className=''> WOMEN SHOE</h1>
