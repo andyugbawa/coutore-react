@@ -195,8 +195,9 @@
     .nav-list{
       position: absolute;
       top:7vh;
-      background: rgb(8, 8, 73);
-      width: 80%;
+      /* background: rgb(8, 8, 73); */
+      background: red;
+      width: 70%;
       flex-direction: column;
       text-align: center;
       padding: 88px 0;
